@@ -1,7 +1,0 @@
-FOR sequential:
- 
-g++ sequential.cpp -std=c++20
-
-FOR parallel:
-
-g++ parallel.cpp -std=c++20 -fopenmp -D_GLIBCXX_PARALLEL
